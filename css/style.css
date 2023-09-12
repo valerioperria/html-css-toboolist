@@ -21,7 +21,7 @@
 
 /* MAIN */
 main{
-    background-color: red;
+    background-color: rgb(246, 248, 249);
     padding: 70px;
 }
 .container{
@@ -43,7 +43,7 @@ main{
     margin: 4px;
 }
 .first{
-    background-color: blue;
+    background-color: rgb(73, 171, 241);
     color: white;
 }
 .second{
@@ -53,7 +53,7 @@ main{
 
 /* HR */
 hr{
-    border: 1px solid red;
+    border: 1px solid rgb(246, 248, 249);
 }
 
 /* LIST */
@@ -64,4 +64,42 @@ hr{
 
 ul{
     list-style-type: none;
+}
+
+li{
+    margin: 12px;
+    font-size: 24px;
+}
+
+.type-bottom{
+    padding: 10px 16px;
+    border-radius: 16px;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    vertical-align: middle;
+} 
+
+.edit{
+    background-color: rgb(73, 171, 234);
+}
+
+.goal{
+    background-color: rgb(167, 131, 231);
+}
+
+.rec{
+    background-color: rgb(100, 191, 167);
+}
+
+.mob{
+    background-color: rgb(242, 157, 54);
+}
+
+.web{
+    background-color: rgb(215, 99, 159);
+}
+
+.sales{
+    background-color: rgb(175, 200, 42);
 }
