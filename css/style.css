@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Heebo', sans-serif;
+}
+
 
 /* LOGO & NAME */
 .logo{
@@ -17,6 +21,7 @@
 }
 .name{
     font-size: 70px;
+    display: inline-block;
 }
 
 /* MAIN */
