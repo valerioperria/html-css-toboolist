@@ -103,3 +103,20 @@ li{
 .sales{
     background-color: rgb(175, 200, 42);
 }
+
+.tick{
+    font-size: 12px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.check{
+    color: lightgreen;
+}
+.cross{
+    color: lightcoral;
+}
