@@ -1,0 +1,67 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* LOGO & NAME */
+.logo{
+    vertical-align: middle;
+    padding: 20px;
+}
+.immage,.name{
+    padding: 3px;
+}
+.immage{
+    width: 80px;
+}
+.name{
+    font-size: 70px;
+}
+
+/* MAIN */
+main{
+    background-color: red;
+    padding: 70px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+/* BOTTOM */
+.section-bottom{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.bottom{
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin: 4px;
+}
+.first{
+    background-color: blue;
+    color: white;
+}
+.second{
+    border: 2px solid lightgray;
+    color: lightgray;
+}
+
+/* HR */
+hr{
+    border: 1px solid red;
+}
+
+/* LIST */
+.section-list{
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+ul{
+    list-style-type: none;
+}
