@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* FONT */
@@ -15,10 +16,10 @@ body{
     vertical-align: middle;
     padding: 20px;
 }
-.immage,.name{
+.image,.name{
     padding: 3px;
 }
-.immage{
+.image{
     width: 80px;
 }
 .name{
@@ -122,7 +123,8 @@ li{
     border: 1px solid;
     text-align: center;
     border-radius: 50%;
-    padding: 6px;
+    line-height: 24px;
+    display: inline-block;
 }
 
 .check{
